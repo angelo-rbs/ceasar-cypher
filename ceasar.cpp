@@ -41,10 +41,10 @@ std::string encrypt(const std::string &text, int key) {
 
 int main() {
 
-	const std::string to_decypher = "XRPCTCRGNEI";
+	const std::string text = "XRPCTCRGNEI";
 
 	for (int key = 1; key < 26; key++) 
-		std:: cout << decrypt(to_decypher, key) << std::endl;
+		std:: cout << decrypt(text, key) << std::endl;
 
 	std::cout << std::endl;
 
